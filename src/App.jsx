@@ -14,7 +14,7 @@ function App() {
     />
   })
   return (
-    <div className='w-[550px] m-auto'>
+    <div className='min-w-[550px] m-auto'>
       <Nav />
       {cards}
       </div>
