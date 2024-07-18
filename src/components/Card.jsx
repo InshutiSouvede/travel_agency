@@ -1,12 +1,11 @@
-import fuji from '../assets/images/fuji.png'
-import map from '../assets/icons/map.svg'
+import map from '../../public/assets/icons/map.svg'
 export default function Card(props) {
     console.log("prope",props)
     return (
         <section className='p-10 xl:p-20 lg:w-3/4 m-auto grid grid-cols-[30%_60%] gap-5'>
             <div className="card--img">
                 {/* relative path from the public folder */}
-                <img src={`../src/assets/images/${props.img}`}  className='w-full' alt="fuji" />
+                <img src={`./assets/images/${props.img}`}  className='w-full' alt="fuji" />
             </div>
             <div className='text-xs md:text-lg xl:text-2xl flex flex-col justify-evenly py-5'>
                 <div className="card-- flex gap-5 ">
