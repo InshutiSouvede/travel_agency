@@ -1,6 +1,5 @@
 import map from '../../public/assets/icons/map.svg'
 export default function Card(props) {
-    console.log("prope",props)
     return (
         <section className='p-10 xl:p-20 lg:w-3/4 m-auto grid grid-cols-[30%_60%] gap-5'>
             <div className="card--img">
